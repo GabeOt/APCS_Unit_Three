@@ -3,7 +3,7 @@ public class Palindrome {
     public static boolean isPalindrome(int number) {
         int fifthNum = number%10;
         int fourthNum = (number%100)/10;
-        int secondNuma = (number%1000);
+        int secondNuma = (number/1000);
         int secondNumb = secondNuma%10;
         int firstNum = number/10000;
 
